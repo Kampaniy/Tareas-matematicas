@@ -82,6 +82,12 @@ table.pl th.bloque{background:#fdf6dc;color:#7a6420;font-size:.7rem}
 .buscar-aqui{font-size:.78rem;font-weight:700;color:var(--acento);text-decoration:none;border:1px dashed var(--borde);border-radius:8px;padding:5px 11px;display:inline-block;width:fit-content}
 .instrucciones{background:#fffaf0;border:1px solid #ecd9ac;border-radius:12px;padding:14px 18px;font-size:.88rem;margin-bottom:16px}
 .instrucciones ol{margin:6px 0 0;padding-left:20px}
+.licencia{background:var(--tarjeta);border:1px solid var(--borde);border-left:5px solid var(--acento);border-radius:12px;padding:14px 18px;margin:16px 0;font-size:.85rem;line-height:1.55}
+.licencia h4{font-size:1.35rem;margin-bottom:4px}
+.licencia ul{margin:6px 0 6px 18px;padding:0}
+.licencia li{margin-bottom:3px}
+.licencia a{color:var(--acento);font-weight:700}
+.licencia .correo{display:inline-block;margin-top:4px;font-weight:700;color:var(--acento)}
 .bloque{margin-top:20px}
 .chequeo{display:block;margin-top:8px}
 .chequeo label{font-size:.9rem;display:flex;gap:9px;align-items:flex-start;cursor:pointer;margin-bottom:6px;text-align:left}
@@ -217,9 +223,32 @@ footer p{margin:0 0 7px;padding-left:2.2em;text-indent:-2.2em}
   <p>Ortega del Rincón, T. y Ortiz Vallejo, M. (2002). Diseño de una intervención para la enseñanza-aprendizaje del cálculo mental en el aula. <i>Revista Latinoamericana de Investigación en Matemática Educativa, 5</i>(3), 271-292.</p>
   <p>Programa de Refuerzo de la Competencia Matemática. (s. f.). <i>Documentos de prácticas competenciales</i>. Mentores de Castilla y León.</p>
   <p>Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la Educación Primaria. <i>Boletín Oficial del Estado, 52</i>, 2 de marzo de 2022.</p>
-  <p style="text-indent:0;padding-left:0;margin-top:12px">Las fichas proceden de la base de datos de prácticas competenciales que declara su fuente y el estado de verificación de su enlace. Los objetivos de etapa se citan literalmente del artículo 7 del Real Decreto 157/2022. Los criterios de evaluación siguen las indicaciones del D 38/22 según el BOCYL n.º 190 de Castilla y León.</p>
+  <p style="text-indent:0;padding-left:0;margin-top:16px;border-top:1px solid var(--borde);padding-top:14px">
+  <strong>Mercedes Carpintero Gómez, 2026.</strong> Esta obra está bajo una licencia
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.
+  Puedes copiarla, distribuirla y adaptarla citando la autoría, sin fines comerciales y manteniendo esta misma licencia en las obras derivadas.
+  Cita recomendada: Carpintero Gómez, M. (2026). <i>Banco de actividades matemáticas competenciales abiertas para Educación Primaria</i> [aplicación web].
+  Los portales enlazados conservan sus propios derechos y condiciones de uso.</p>
+<p style="text-indent:0;padding-left:0;margin-top:12px">Las fichas proceden de la base de datos de prácticas competenciales que declara su fuente y el estado de verificación de su enlace. Los objetivos de etapa se citan literalmente del artículo 7 del Real Decreto 157/2022. Los criterios de evaluación siguen las indicaciones del D 38/22 según el BOCYL n.º 190 de Castilla y León.</p>
 </footer>
 </div>
+
+<template id="tpl-lic">
+  <div class="licencia">
+    <h4>Condiciones de uso de este material</h4>
+    <p style="margin:0 0 6px"><strong>Mercedes Carpintero Gómez, 2026.</strong> Obra bajo licencia
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>.</p>
+    <ul>
+      <li><strong>Puedes</strong> usar las actividades en el aula, copiarlas, distribuirlas y adaptarlas, <strong>citando siempre la autoría</strong>.</li>
+      <li><strong>No puedes</strong> darles un uso comercial ni incorporarlas a cursos, plataformas o publicaciones de terceros sin autorización.</li>
+      <li><strong>Si las adaptas</strong>, debes distribuir el resultado bajo esta misma licencia.</li>
+      <li><strong>Si las publicas o distribuyes</strong>, cita la autoría y comunícalo por correo a la autora.</li>
+    </ul>
+    <p style="margin:0">Para solicitar autorización para cualquier otro uso, o para comunicar una reproducción:
+      <a class="correo" href="mailto:a.n.investigacioneducativa@gmail.com?subject=Uso%20del%20Banco%20de%20actividades%20matem%C3%A1ticas%20competenciales">a.n.investigacioneducativa@gmail.com</a></p>
+    <p style="margin:6px 0 0;font-size:.78rem;color:var(--gris)">Cita recomendada: Carpintero Gómez, M. (2026). <i>Banco de actividades matemáticas competenciales abiertas para Educación Primaria</i> [aplicación web].</p>
+  </div>
+</template>
 
 <div class="velo" id="velo"><div class="ficha" id="ficha"></div></div>
 
@@ -240,7 +269,12 @@ function word(t,cuerpo){
    +'h3{font-size:11.5pt;color:#3d6b8c;margin:10pt 0 2pt}p{margin:0 0 6pt}ul{margin:2pt 0 6pt 16pt}ol{margin:2pt 0 6pt 18pt}li{margin-bottom:3pt}'
    +'table{border-collapse:collapse;width:100%;margin:4pt 0 6pt}td,th{border:1px solid #9db9cf;padding:4pt 6pt;font-size:9.5pt;text-align:left;vertical-align:top}'
    +'th{background:#eaf3fa;color:#3d6b8c}th.bloque{background:#fdf6dc;color:#7a6420}td.x{text-align:center;font-weight:bold}'
-   +'.aviso{font-size:9pt;color:#5b7186;font-style:italic}</style></head><body>'+cuerpo+'</body></html>';
+   +'.aviso{font-size:9pt;color:#5b7186;font-style:italic}.lic{font-size:8.5pt;color:#5b7186;border-top:1px solid #c3d8e9;padding-top:6pt;margin-top:14pt}</style></head><body>'
+   +cuerpo
+   +'<p class="lic"><b>Mercedes Carpintero Gómez, 2026.</b> Obra bajo licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). '
+   +'Puede copiarse, distribuirse y adaptarse citando la autoría, sin fines comerciales y manteniendo esta misma licencia en las obras derivadas. '
+   +'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es · Cita recomendada: Carpintero Gómez, M. (2026). Banco de actividades matemáticas competenciales abiertas para Educación Primaria [aplicación web].</p>'
+   +'</body></html>';
   const b=new Blob(['\ufeff'+h],{type:'application/msword'}); const a=document.createElement('a'); const u=URL.createObjectURL(b);
   a.href=u; a.download=t.replace(/[^0-9A-Za-zÁÉÍÓÚÑáéíóúñ \-]/g,'').trim().slice(0,90)+'.doc';
   document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),3000);
@@ -510,6 +544,12 @@ $$('nav.pestanas button').forEach(b=>{ b.onclick=()=>{
   ['banco','repos','disenar','aula'].forEach(v=>$('#v-'+v).classList.toggle('oculto',v!==b.dataset.v));
   document.body.className=TONO[b.dataset.v];
 };});
+
+['#v-banco','#v-repos','#v-disenar','#v-aula'].forEach(sec=>{
+  const cont=$(sec), primero=cont.querySelector('.panel');
+  const bloque=$('#tpl-lic').content.cloneNode(true);
+  if(primero&&primero.nextSibling) cont.insertBefore(bloque,primero.nextSibling); else cont.appendChild(bloque);
+});
 
 pintar(); pintarRepos(); refrescarDiseno(); $('#b-disenar').click();
 </script>
