@@ -1,0 +1,26 @@
+{
+  "title": "Banco de actividades matemáticas competenciales abiertas para Educación Primaria",
+  "description": "<p>Aplicación web con un banco de 303 actividades matemáticas competenciales abiertas para Educación Primaria, con enfoque de tarea rica (NRICH), alineadas con la LOMLOE y el Decreto 38/2022 de Castilla y León. Permite filtrar por curso, sentido matemático, contenido curricular, competencia específica, tipo de práctica y nivel, e incluye las plantillas de conexión con el currículo y de evaluación de prácticas competenciales, así como la generación de documentos editables.</p>",
+  "upload_type": "software",
+  "language": "spa",
+  "license": "cc-by-nc-sa-4.0",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Carpintero Gómez, Mercedes",
+      "affiliation": "Universidad de Valladolid",
+      "orcid": "0009-0002-9331-8263"
+    }
+  ],
+  "keywords": [
+    "educación matemática",
+    "Educación Primaria",
+    "tareas ricas",
+    "competencia matemática",
+    "LOMLOE",
+    "Decreto 38/2022",
+    "Castilla y León",
+    "prácticas competenciales"
+  ],
+  "notes": "Uso permitido bajo licencia CC BY-NC-SA 4.0 citando la autoría. Para cualquier otro uso, o para comunicar una reproducción o distribución del material, escriba a a.n.investigacioneducativa@gmail.com"
+}
