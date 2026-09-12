@@ -1,26 +1,29 @@
 {
   "title": "Banco de actividades matemáticas competenciales abiertas para Educación Primaria",
-  "description": "<p>Aplicación web con un banco de 303 actividades matemáticas competenciales abiertas para Educación Primaria, con enfoque de tarea rica (NRICH), alineadas con la LOMLOE y el Decreto 38/2022 de Castilla y León. Permite filtrar por curso, sentido matemático, contenido curricular, competencia específica, tipo de práctica y nivel, e incluye las plantillas de conexión con el currículo y de evaluación de prácticas competenciales, así como la generación de documentos editables.</p>",
+  "description": "<p>Aplicaci\u00f3n web aut\u00f3noma con un banco de 303 actividades matem\u00e1ticas competenciales abiertas para Educaci\u00f3n Primaria, con enfoque de tarea rica (NRICH), alineadas con la LOMLOE y el Decreto 38/2022 de Castilla y Le\u00f3n.</p><p>Permite filtrar las actividades por curso, sentido matem\u00e1tico, contenido curricular, competencia espec\u00edfica y nivel de dificultad. Cada actividad incluye enunciado, orientaciones de aula, objetivos de aprendizaje, grandes ideas matem\u00e1ticas, vinculaci\u00f3n curricular completa, conocimientos previos, estrategias, preguntas de movilizaci\u00f3n y de observaci\u00f3n docente, variantes, errores frecuentes, cierre metacognitivo y dise\u00f1o universal.</p><p>Incorpora la plantilla de conexi\u00f3n con el curr\u00edculo y la plantilla de evaluaci\u00f3n de pr\u00e1cticas competenciales, ambas cumplimentadas para cada actividad, un m\u00f3dulo de andamiaje para dise\u00f1ar tareas nuevas, una gu\u00eda de aula y un directorio de 48 portales educativos con b\u00fasqueda acotada por dominio. Genera documentos en PDF, con encabezado institucional, listos para su uso en formaci\u00f3n docente y en el aula.</p><p>El archivo es aut\u00f3nomo: funciona en cualquier navegador sin instalaci\u00f3n, sin servidor y sin dependencias externas.</p>",
   "upload_type": "software",
   "language": "spa",
   "license": "cc-by-nc-sa-4.0",
   "access_right": "open",
+  "version": "1.0.0",
   "creators": [
     {
-      "name": "Carpintero Gómez, Mercedes",
+      "name": "Carpintero G\u00f3mez, Mercedes",
       "affiliation": "Universidad de Valladolid",
       "orcid": "0009-0002-9331-8263"
     }
   ],
   "keywords": [
-    "educación matemática",
-    "Educación Primaria",
+    "educaci\u00f3n matem\u00e1tica",
+    "Educaci\u00f3n Primaria",
     "tareas ricas",
-    "competencia matemática",
+    "competencia matem\u00e1tica",
+    "pr\u00e1cticas competenciales",
     "LOMLOE",
     "Decreto 38/2022",
-    "Castilla y León",
-    "prácticas competenciales"
+    "Castilla y Le\u00f3n",
+    "evaluaci\u00f3n competencial",
+    "NRICH"
   ],
-  "notes": "Uso permitido bajo licencia CC BY-NC-SA 4.0 citando la autoría. Para cualquier otro uso, o para comunicar una reproducción o distribución del material, escriba a a.n.investigacioneducativa@gmail.com"
+  "notes": "Uso permitido bajo licencia CC BY-NC-SA 4.0 citando la autor\u00eda. Para cualquier otro uso, o para comunicar una reproducci\u00f3n o distribuci\u00f3n del material, escriba a a.n.investigacioneducativa@gmail.com"
 }

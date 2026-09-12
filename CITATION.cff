@@ -13,22 +13,27 @@ authors:
     email: a.n.investigacioneducativa@gmail.com
     orcid: "https://orcid.org/0009-0002-9331-8263"
 abstract: >-
-  Aplicación web con un banco de 303 actividades matemáticas
-  competenciales abiertas para Educación Primaria, con enfoque de
-  tarea rica (NRICH), alineadas con la LOMLOE y el Decreto 38/2022
-  de Castilla y León. Incluye filtrado por curso, sentido
-  matemático, contenido curricular, competencia específica, tipo de
-  práctica y nivel, plantillas de conexión curricular y de
-  evaluación, y generación de documentos editables.
+  Aplicación web autónoma con un banco de 303 actividades
+  matemáticas competenciales abiertas para Educación Primaria, con
+  enfoque de tarea rica (NRICH), alineadas con la LOMLOE y el
+  Decreto 38/2022 de Castilla y León. Permite filtrar por curso,
+  sentido matemático, contenido curricular, competencia específica
+  y nivel. Incluye las plantillas de conexión con el currículo y de
+  evaluación de prácticas competenciales cumplimentadas para cada
+  actividad, un módulo de andamiaje para diseñar tareas nuevas, una
+  guía de aula y un directorio de portales educativos. Genera
+  documentos en PDF con encabezado institucional.
 keywords:
   - educación matemática
   - Educación Primaria
   - tareas ricas
   - competencia matemática
+  - prácticas competenciales
   - LOMLOE
   - Decreto 38/2022
   - Castilla y León
-  - prácticas competenciales
+  - evaluación competencial
+  - NRICH
 license: CC-BY-NC-SA-4.0
 version: 1.0.0
 date-released: '2026-09-12'
